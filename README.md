@@ -4,7 +4,7 @@ Coronary flow reserve (CFR), defined as hyperemic or maximal coronary flow divid
 
 This repository contains a complete pipeline for predicting health status (Healthy vs Unhealthy) using various Machine Learning classifiers. It demonstrates: Data preprocessing (scaling + encoding), Training and evaluation of multiple models, Calculation of key classification metrics (Accuracy, Precision, Recall, F1, ROC-AUC) and Visualization of: ROC-AUC curves for all models and Learning curves for training & validation accuracy and Log loss curves for training & validation sets as well as the Confusion matrices for each model. 
 
-📂 Project Structure 
+📂 # Project Structure 
 * cfr_simulation_with_health_labels.csv — Sample dataset (should be in your working directory)
 * Prediction of Coronary Flow Reserve using Synthetic Data.py or notebook.ipynb — Full Python script
 * Classification of Patients using Coronary Flow Reserve (CFR) values.py or notebook.ipynb — Full Python script
@@ -22,7 +22,13 @@ This repository contains a complete pipeline for predicting health status (Healt
 
 NOTE: These results are to be submitted to the International Journal of Cardiology. 
 
-Issues and Limitation: 
+Issues and Limitation -
+* Prdictions did not entirely work because while the evaluation metrices are printed after training and testing, the R square values are negative showing the models are not really learning enough. 
+* While classifciation worked and printed beautiful accuracies and everything, the SHAP global feature importance plots showed that the risk factors did not fully contribute to the classification.
+* The conclusion is that these clinical risk factors have no predictive power for CFR.
+
+
+
 
 
 References 
