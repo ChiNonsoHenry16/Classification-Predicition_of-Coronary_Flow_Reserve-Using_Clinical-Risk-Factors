@@ -22,13 +22,13 @@ This repository contains a complete pipeline for predicting health status (Healt
 
 NOTE: These results are to be submitted to the International Journal of Cardiology. 
 
-# Issues and Limitation -
+# Issues and Limitation 
 * Prdictions did not entirely work because while the evaluation metrices are printed after training and testing, the R square values are negative showing the models are not really learning enough. 
 * While classifciation worked and printed beautiful accuracies and everything, the SHAP global feature importance plots showed that the risk factors did not fully contribute to the classification.
 * The conclusion is that these clinical risk factors have no predictive power for CFR.
 
-
-
+Next Steps
+* Regenerate the synthetic datasets to have predictive power. 
 
 
 References 
