@@ -39,4 +39,5 @@ Next Steps
 
 
 References 
-1. Fearon, William F. (). A link between resting flow, coronary flow reserve and adverse outcomes. International Journal of Cardiology, Volume 309, 25 - 26. 
+1. Fearon, William F. (2025). A link between resting flow, coronary flow reserve and adverse outcomes. International Journal of Cardiology, Volume 309, 25 - 26. https://www.internationaljournalofcardiology.com/article/S0167-5273(20)30456-3/abstract
+2. iCliniq (2025). Coronary Flow Reserve: Understanding Blood Flow in the Heart. https://www.icliniq.com/articles/heart-circulatory-health/coronary-flow-reserve 
