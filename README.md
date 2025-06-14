@@ -2,26 +2,13 @@
 
 Coronary flow reserve (CFR), defined as hyperemic or maximal coronary flow divided by resting flow is a physiologic index which interrogates the function of the entire coronary tree, both the larger epicardial coronary vessel and the microvasculature [1].
 
-This repository contains a complete pipeline for predicting health status (Healthy vs Unhealthy) using various Machine Learning classifiers. It demonstrates:
-
-✅ Data preprocessing (scaling + encoding)
-✅ Training and evaluation of multiple models
-✅ Calculation of key classification metrics (Accuracy, Precision, Recall, F1, ROC-AUC)
-✅ Visualization of:
-
-ROC-AUC curves for all models
-
-Learning curves for training & validation accuracy
-
-Log loss curves for training & validation sets
-✅ Confusion matrices for each model
+This repository contains a complete pipeline for predicting health status (Healthy vs Unhealthy) using various Machine Learning classifiers. It demonstrates: Data preprocessing (scaling + encoding), Training and evaluation of multiple models, Calculation of key classification metrics (Accuracy, Precision, Recall, F1, ROC-AUC) and Visualization of: ROC-AUC curves for all models and Learning curves for training & validation accuracy and Log loss curves for training & validation sets as well as the Confusion matrices for each model. 
 
 📂 Project Structure
 cfr_simulation_with_health_labels.csv — Sample dataset (should be in your working directory)
 
 notebook.py or notebook.ipynb — Full Python script or notebook for running the pipeline
 
-README.md — This documentation
 
 ⚙️ Key Features
 Multiple Models: Logistic Regression, Random Forest, SVM, XGBoost, LightGBM, KNN, Gradient Boosting, Extra Trees, Naive Bayes.
