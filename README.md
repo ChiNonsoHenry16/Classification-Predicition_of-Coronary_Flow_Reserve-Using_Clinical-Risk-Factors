@@ -1,6 +1,9 @@
 # Using Clinical Risk Factors for either Classfication or Prediction of Coronary Flow Reserve
 
-Coronary flow reserve (CFR), defined as hyperemic or maximal coronary flow divided by resting flow is a physiologic index which interrogates the function of the entire coronary tree, both the larger epicardial coronary vessel and the microvasculature [1]. The dataset used for this study 
+Coronary flow reserve (CFR), defined as hyperemic or maximal coronary flow divided by resting flow is a physiologic index which interrogates the function of the entire coronary tree, both the larger epicardial coronary vessel and the microvasculature [1]. The dataset used for this study contains the following features: Hypertension, Diabetes, SmokingStatus, BMI, SystolicBP, DiastolicBP, FastingGlucose, TotalCholesterol, LDL, HDL, Triglycerides, CFR, and HealthStatus. 
+
+* For classification, the models are classifying HealthStatus based on CFR.
+* For prediction, the models emplpyed are prediciting the CFR. 
 
 This repository contains a complete pipeline for predicting health status (Healthy vs Unhealthy) using various Machine Learning classifiers. It demonstrates: Data preprocessing (scaling + encoding), Training and evaluation of multiple models, Calculation of key classification metrics (Accuracy, Precision, Recall, F1, ROC-AUC) and Visualization of: ROC-AUC curves for all models and Learning curves for training & validation accuracy and Log loss curves for training & validation sets as well as the Confusion matrices for each model. 
 
