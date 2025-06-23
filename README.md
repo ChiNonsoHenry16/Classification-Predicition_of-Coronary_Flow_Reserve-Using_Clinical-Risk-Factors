@@ -1,4 +1,4 @@
-# Using Clinical Risk Factors for either Classfication or Prediction of Coronary Flow Reserve
+# Using Clinical Risk Factors for either Classfication and Prediction of Coronary Flow Reserve
 
 Coronary flow reserve (CFR), defined as hyperemic or maximal coronary flow divided by resting flow is a physiologic index which interrogates the function of the entire coronary tree, both the larger epicardial coronary vessel and the microvasculature [1]. The dataset used for this study contains the following features: Hypertension, Diabetes, SmokingStatus, BMI, SystolicBP, DiastolicBP, FastingGlucose, TotalCholesterol, LDL, HDL, Triglycerides, CFR, and HealthStatus. 
 
